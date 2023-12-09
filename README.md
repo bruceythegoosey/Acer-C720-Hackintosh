@@ -1,15 +1,16 @@
 # Acer-C720-Hackintosh
-Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy)
+Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy). 
 
 ### ⚠️ Disclaimer
 **By continuing, you acknowledge that you have read and understood the contents of the following disclaimer, and consent to their terms.**
 
 **The process described in this document may cause irreversible damage to your laptop, and you should prepare yourself for that outcome before you begin. We accept absolutely no responsibility for the consequences of anyone choosing to follow or ignore any of the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
 
-
 ## Table of Contents
 
 - Specifications
+
+## Specifications and Status
 
 ### Specifications
 | Type | Model |
@@ -32,12 +33,27 @@ Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy)
 | Storage | Replaceable, NVME unsupported. 256gb+ suggested |
 | WiFi + Bluetooth | Fully Supported 
 | Touchpad | Cypress unsupported, ELAN only |
+| Sleep | With custom CoreBoot (see notes) |
 | Touchscreen | Untested |
 | Speakers |
 | HDMI Audio |
 | AUX Headphones |
 | Camera |
 | SD Card | 
+
+## Test MacOS Versions
+- MacOS Catalina (10.15)
+- MacOS Big Sur (11)
+- MacOS Monterey (12)
+- MacOS Ventura (13)
+- MacOS Sonoma (14) 
+
+## Installation 
+### Preliminary
+1. Flash Mr. Chromebox's [CoreBoot Firmware] (https://mrchromebox.tech). 
+2. Build the base OpenCore EFI for [Haswell] (https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html).
+3. Map USB Devices
+### Kexts
 
 
 
