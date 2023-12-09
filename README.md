@@ -40,7 +40,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Sleep | With custom CoreBoot (see notes) |
 | Touchscreen | Untested |
 | FN Keys | Remapped for better functionallity (see SSDT's) |
-| Speakers |
+| Speakers | 
 | HDMI Audio |
 | AUX Headphones |
 | Camera |
@@ -63,11 +63,11 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 ### Plist Modifications
 
 ### SSDT's
-
+Note: No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad. Will work OOTB.
 ### Kexts
-| Kext | Notes | 
-|----------|----------|
-| Lilu | 
+| Kext | Notes | Download | 
+|----------|----------|----------|
+| Lilu || https://github.com/acidanthera/Lilu/releases| 
 | WhateverGreen |
 | VirtualSMC |
 | SMCBatteryManager | VirtualSMC Satalite |
@@ -78,4 +78,4 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | VoodooI2CAtmelMXT | VoodooI2C Satalite for ATMEL Touchscreen |
 | VoodooPS2Controller | Remove VoodooPS2Mouse and VoodooPS2Trackpad Plugins |
 
-Note: Need a project? The original Cypress driver needs ported from original VoodooI2C to a Satalite. 
+Note: Need a project? The original Cypress driver from CoolStar needs ported from original VoodooI2C to a Voodoo Satalite. 
