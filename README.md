@@ -35,6 +35,7 @@ Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy).
 | Touchpad | Cypress unsupported, ELAN only |
 | Sleep | With custom CoreBoot (see notes) |
 | Touchscreen | Untested |
+| FN Keys | Remapped for better functionallity (see SSDT's) |
 | Speakers |
 | HDMI Audio |
 | AUX Headphones |
@@ -49,11 +50,16 @@ Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy).
 - MacOS Sonoma (14) 
 
 ## Installation 
+
 ### Preliminary
 1. Flash Mr. Chromebox's [CoreBoot Firmware] (https://mrchromebox.tech/). 
 2. Build the base OpenCore EFI for [Haswell] (https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html/).
 3. Map USB Devices
+
+### SSDT's
+
 ### Kexts
+
 
 
 
