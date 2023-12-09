@@ -1,5 +1,5 @@
 # Acer-C720-Hackintosh
-Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy). 
+Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Peppy). 
 
 ### ⚠️ Disclaimer
 **By continuing, you acknowledge that you have read and understood the contents of the following disclaimer, and consent to their terms.**
@@ -31,7 +31,7 @@ Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy).
 | Graphics | Intel HD 4400 ONLY |
 | Memory | 4gb suggested for MacOS Mojave and later | 
 | Storage | Replaceable, NVME unsupported. 256gb+ suggested |
-| WiFi + Bluetooth | Fully Supported 
+| WiFi + Bluetooth | Fully supported on MacOS Big Sur and earlier |
 | Touchpad | Cypress unsupported, ELAN only |
 | Sleep | With custom CoreBoot (see notes) |
 | Touchscreen | Untested |
@@ -70,5 +70,7 @@ Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy).
 | SMCProcessor.kext | VirtualSMC Satalite |
 | SMCSuperIO.kext | VirtualSMC Satalite (untested) |
 | VoodooI2C.kext | 
-| VoodooI2CHID.kext | VoodooI2C Satalite (untested with Touchscreen) |
+| VoodooI2CELAN.kext | VoodooI2C Satalite for ELAN Touchpad (do not mix with Cypress kext) |
+| Cypress kext? |
+| VoodooI2CAtmelMXT | VoodooI2C Satalite for ATMEL Touchscreen |
 
