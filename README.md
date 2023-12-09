@@ -70,7 +70,6 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | SMCProcessor.kext | VirtualSMC Satalite |
 | SMCSuperIO.kext | VirtualSMC Satalite (untested) |
 | VoodooI2C.kext | 
-| VoodooI2CELAN.kext | VoodooI2C Satalite for ELAN Touchpad (do not mix with Cypress kext) |
-| Cypress kext? |
+| VoodooI2CELAN.kext | VoodooI2C Satalite for ELAN Touchpad |
 | VoodooI2CAtmelMXT | VoodooI2C Satalite for ATMEL Touchscreen |
-
+* Need a project? The original Cypress driver needs ported from original VoodooI2C to a Satalite. 
