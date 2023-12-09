@@ -50,8 +50,8 @@ Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy).
 
 ## Installation 
 ### Preliminary
-1. Flash Mr. Chromebox's [CoreBoot Firmware] (https://mrchromebox.tech). 
-2. Build the base OpenCore EFI for [Haswell] (https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html).
+1. Flash Mr. Chromebox's [CoreBoot Firmware] (https://mrchromebox.tech/). 
+2. Build the base OpenCore EFI for [Haswell] (https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html/).
 3. Map USB Devices
 ### Kexts
 
