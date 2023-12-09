@@ -73,6 +73,7 @@ Note: No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad. Will work OOTB.
 | VirtualSMC || [Link](https://github.com/acidanthera/VirtualSMC/releases) |
 | SMCBatteryManager | VirtualSMC Satalite | [Link](https://github.com/acidanthera/VirtualSMC/releases) |
 | SMCProcessor | VirtualSMC Satalite | [Link](https://github.com/acidanthera/VirtualSMC/releases) |
+| SMCLightSensor | VirtualSMC Satalite | [Link](https://github.com/acidanthera/VirtualSMC/releases) |
 | SMCSuperIO | VirtualSMC Fan Satalite (untested) | [Link](https://github.com/acidanthera/VirtualSMC/releases) |
 | VoodooI2C || [Link](https://github.com/VoodooI2C/VoodooI2C/releases) |
 | VoodooI2CELAN | VoodooI2C Satalite for ELAN Touchpad | [Link](https://github.com/VoodooI2C/VoodooI2C/releases) |
