@@ -83,4 +83,5 @@ Note: No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad. Will work OOTB.
 | Atheros40 | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip)
 
 Note: Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite. 
+
 Note: Bluetooth may work on High Sierra and earlier with BTFirmwareUploader or ATH9Kfixup but has not been tested recently. Kexts will not load properly on Mojave and newer.
