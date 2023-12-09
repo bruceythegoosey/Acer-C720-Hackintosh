@@ -62,6 +62,7 @@ Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy).
 
 ### Kexts
 | Kext | Notes | 
+|----------|----------|
 | Lilu.kext | 
 | WhateverGreen.kext |
 | VirtualSMC.kext |
