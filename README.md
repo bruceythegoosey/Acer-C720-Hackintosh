@@ -19,14 +19,25 @@ Finally a guide for running MacOS on the legendary Acer C720 Chromebook (Peppy)
 | Storage | 16gb/32gb M.2 2242 
 | WiFi + Bluetooth | Atheros AR9462 |
 | Sound | Realtek ALC |
-| Display |
-| Touchscreen | 
+| Display | 1366x768 |
 | Touchpad | ELAN/Cypress |
+| Touchscreen | 
 
 ### Status
 | Type | Notes |
 |----------|----------|
 | Processor | Celeron 2955U Unsupported |
+| Graphics | Intel HD 4400 ONLY |
 | Memory | 4gb suggested for MacOS Mojave and later | 
 | Storage | Replaceable, NVME unsupported. 256gb+ suggested |
-| WiFi + Bluetooth |
+| WiFi + Bluetooth | Fully Supported 
+| Touchpad | Cypress unsupported, ELAN only |
+| Touchscreen | Untested |
+| Speakers |
+| HDMI Audio |
+| AUX Headphones |
+| Camera |
+| SD Card | 
+
+
+
