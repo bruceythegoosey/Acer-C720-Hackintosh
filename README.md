@@ -72,6 +72,6 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | VoodooI2C | 
 | VoodooI2CELAN | VoodooI2C Satalite for ELAN Touchpad |
 | VoodooI2CAtmelMXT | VoodooI2C Satalite for ATMEL Touchscreen |
-| VoodooPS2Controller | Remove all Plugins except forVoodooPS2Keyboard and VoodooInput |
+| VoodooPS2Controller | Remove VoodooPS2Mouse and VoodooPS2Trackpad Plugins |
 
 Note: Need a project? The original Cypress driver needs ported from original VoodooI2C to a Satalite. 
