@@ -10,6 +10,13 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 **The process described in this document may cause irreversible damage to your laptop. Prepare yourself for that outcome before you begin. We accept absolutely no responsibility for the consequences of anyone electing to follow or ignore any of the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
 
+## Test MacOS Versions
+- MacOS Catalina (10.15)
+- MacOS Big Sur (11)
+- MacOS Monterey (12)
+- MacOS Ventura (13)
+- MacOS Sonoma (14)
+
 ## Table of Contents
 
 - Specifications
@@ -46,13 +53,6 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | AUX Headphones |
 | Camera |
 | SD Card | 
-
-## Test MacOS Versions
-- MacOS Catalina (10.15)
-- MacOS Big Sur (11)
-- MacOS Monterey (12)
-- MacOS Ventura (13)
-- MacOS Sonoma (14) 
 
 ## Installation 
 
