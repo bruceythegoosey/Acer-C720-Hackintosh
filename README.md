@@ -33,7 +33,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Sound | Realtek ALC283 |
 | Display | 1366x768 |
 | Touchpad | ELAN/Cypress |
-| Touchscreen | 
+| Touchscreen | Atmel |
 
 ### Status
 | Type | Notes |
