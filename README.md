@@ -8,7 +8,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 ### ⚠️ Disclaimer
 **By continuing, you acknowledge that you have read and understood the contents of the following disclaimer, and consent to their terms.**
 
-**The process described in this document may cause irreversible damage to your laptop. Prepare yourself for that outcome before you begin. We accept absolutely no responsibility for the consequences of anyone electing to follow or ignore any of the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
+**The process described in this document may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow or ignore any of the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
 
 ## Test MacOS Versions
 - MacOS Catalina (10.15)
