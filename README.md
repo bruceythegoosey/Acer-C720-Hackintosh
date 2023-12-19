@@ -38,6 +38,8 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Camera | 720p | Fully Supported |
 | SD Card | | Fully Supported |
 
+**Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite. 
+
 ## Installation 
 
 ### Preliminary
@@ -80,6 +82,5 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 ### OpenCore Legacy
 
 ###
-Note: Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite. 
 
 Note: Bluetooth may work on High Sierra and earlier with BTFirmwareUploader or ATH9Kfixup but has not been tested recently. Kexts will not load properly on Mojave and newer.
