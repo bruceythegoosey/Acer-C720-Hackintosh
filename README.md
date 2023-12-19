@@ -47,7 +47,11 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 ### EFI Edits
 
 ### SSDT's
-Note: No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad. Will work OOTB.
+| Kext | Notes | Download |
+| SSDT-EC | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-EC.aml)
+| SSDT-HPET | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml)
+| SSDT-PNLF | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml)
+**No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad. Will work OOTB.
 
 ### Kexts
 | Kext | Notes | Download | 
