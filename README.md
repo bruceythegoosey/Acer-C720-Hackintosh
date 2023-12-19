@@ -5,10 +5,11 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 |------------|-------------|-------------|
 |<img src="Resources/Pictures/Sur.png" width="300">|<img src="Resources/Pictures/Ventura.png" width="300">
 
-### ⚠️ Disclaimer
-**By continuing, you acknowledge that you have read and understood the contents of the following disclaimer, and consent to their terms.**
+### Disclaimer
+**The process described in this guide may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow or ignore any of the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
 
-**The process described in this document may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow or ignore any of the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
+**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/Plists, configurators, patches or Clover. Follow the Acidathera Documentation.**
+
 
 ## Test MacOS Versions
 - MacOS Catalina (10.15)
@@ -23,43 +24,25 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 ## Specifications and Status
 
-### Specifications
-| Type | Model |
-|----------|----------|
-| Processor | Intel Celeron 2955U/i3-4005U |
-| Memory | 2/4gb DDR3L |
-| Storage | 16gb/32gb M.2 2242 
-| WiFi + Bluetooth | Atheros AR9462 |
-| Sound | Realtek ALC283 |
-| Display | 1366x768 |
-| Touchpad | ELAN/Cypress |
-| Touchscreen | Atmel |
-
-### Status
-| Type | Notes |
-|----------|----------|
-| Processor | Celeron 2955U Unsupported |
-| Graphics | Intel HD 4400 ONLY |
-| Memory | 4gb suggested for MacOS Mojave and later | 
-| Storage | Replaceable, NVME unsupported. 256gb+ suggested |
-| WiFi | Supported on MacOS Big Sur and earlier |
-| Bluetooth | Supported on MacOS High Sierra and earlier |
-| Touchpad | Cypress unsupported, ELAN only |
-| Sleep | With custom CoreBoot (see notes) |
-| Touchscreen | Untested |
-| FN Keys | Remapped for better functionallity (see SSDT's) |
-| Speakers | 
-| HDMI Audio |
-| AUX Headphones |
-| Camera |
-| SD Card | 
+| Type | Model | Notes |
+|----------|----------|----------|
+| Processor | Intel Celeron 2955U/i3-4005U | Celeron 2955U Unsupported |
+| Graphics | Intel HD 4000/4400 | Intel HD 4000 Unsupported |
+| Memory | 2/4gb DDR3L | 4gb suggested for MacOS Mojave and later |
+| Storage | 16gb/32gb M.2 2242 | Replaceable, NVME unsupported. 256gb+ suggested |
+| WiFi | Atheros AR9462 | Supported on MacOS Big Sur and earlier |
+| Bluetooth | Atheros AR9462 | Supported on MacOS High Sierra and earlier |
+| Touchpad | Elan/Cypress | Cypress unsupported, ELAN only |
+| Display/Touchscreen | Atmel 1366x768 | Fully Supported |
+| Sound/AUX| Realtek ALC283 | Fully Supported |
+| Camera | 720p | Fully Supported |
+| SD Card | | Fully Supported |
 
 ## Installation 
 
 ### Preliminary
 1. Flash Mr. Chromebox's [CoreBoot Firmware](https://mrchromebox.tech/). 
 2. Build the base OpenCore EFI for [Haswell Laptops](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html/).
-3. Map USB Devices
 
 ### Plist Modifications
 
