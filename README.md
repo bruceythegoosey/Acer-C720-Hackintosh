@@ -48,6 +48,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 ### SSDT's
 | Kext | Notes | Download |
+|----------|----------|----------|
 | SSDT-EC | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-EC.aml)
 | SSDT-HPET | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml)
 | SSDT-PNLF | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml)
