@@ -49,10 +49,13 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 ### SSDT's
 | Kext | Notes | Download |
 |----------|----------|----------|
-| SSDT-EC | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-EC.aml)
-| SSDT-HPET | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml)
-| SSDT-PNLF | | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml)
-**No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad. Will work OOTB.
+| SSDT-Plug-Alt | Custom SSDT-Plug from 1Revenger1 fixing XCPM on Coreboot 4.20+ | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PLUG-ALT.aml)
+| SSDT-EC | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-EC.aml)
+| SSDT-USBX | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-USBX.aml)
+| SSDT-HPET | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml)
+| SSDT-PNLF | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml)
+
+**No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad.
 
 ### Kexts
 | Kext | Notes | Download | 
@@ -74,7 +77,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 ### Plist
 
-#### OpenCore Legacy
+### OpenCore Legacy
 
 ###
 Note: Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite. 
