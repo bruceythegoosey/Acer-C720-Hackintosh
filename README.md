@@ -77,10 +77,8 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | HS80211Family | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/HS80211Family.kext.zip) |
 | Atheros40 | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
 
+**Bluetooth may work on High Sierra and earlier with BTFirmwareUploader or ATH9Kfixup but has not been tested recently. Kexts will not load properly on Mojave and newer.
+
 ### Plist
 
 ### OpenCore Legacy
-
-###
-
-Note: Bluetooth may work on High Sierra and earlier with BTFirmwareUploader or ATH9Kfixup but has not been tested recently. Kexts will not load properly on Mojave and newer.
