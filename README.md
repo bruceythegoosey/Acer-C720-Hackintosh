@@ -12,6 +12,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 
 ## Test MacOS Versions
+- MacOS High Sierra (10.13)
 - MacOS Catalina (10.15)
 - MacOS Big Sur (11)
 - MacOS Monterey (12)
@@ -38,15 +39,14 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Camera | 720p | Fully Supported |
 | SD Card | | Fully Supported |
 
-*Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite. 
+*Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite.
 
 ## Installation 
 
 ### Preliminary
 1. Flash Mr. Chromebox's [CoreBoot Firmware](https://mrchromebox.tech/). 
 2. Build the base OpenCore EFI for [Haswell Laptops](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html/).
-
-### EFI Edits
+3. Dump your complete [DSDT](https://dortania.github.io/Getting-Started-With-ACPI/Manual/dump.html#:~:text=In%20command%20prompt%20run%20path%2Fto%2Facpidump.exe%20-b%20-n%20DSDT,DSDT%20as%20a.dat%20file.%20Rename%20this%20to%20DSDT.aml).
 
 ### SSDT's
 | Kext | Notes | Download |
@@ -57,7 +57,8 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | SSDT-HPET | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml)
 | SSDT-PNLF | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml)
 
-**No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad.
+*For all intents and purposes building HPET and PNLF with SSDTTime are identical to making them manually. 
+*No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad.
 
 ### Kexts
 | Kext | Notes | Download | 
@@ -79,6 +80,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 **Bluetooth may work on High Sierra and earlier with BTFirmwareUploader or ATH9Kfixup but has not been tested recently. Kexts will not load properly on Mojave and newer.
 
-### Plist
+### Plist Edits
+1. Add HPET and IRQ patches from SSDTTime to ACPI-Patch [Link](
 
 ### OpenCore Legacy
