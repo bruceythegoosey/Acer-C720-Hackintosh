@@ -57,7 +57,6 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | SSDT-HPET | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml)
 | SSDT-PNLF | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml)
 
-*For all intents and purposes building HPET and PNLF with SSDTTime are identical to making them manually. 
 *No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad.
 
 ### Kexts
@@ -81,6 +80,11 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 **Bluetooth may work on High Sierra and earlier with BTFirmwareUploader or ATH9Kfixup but has not been tested recently. Kexts will not load properly on Mojave and newer.
 
 ### Plist Edits
-1. Add HPET and IRQ patches from SSDTTime to ACPI-Patch [Link](
+
+| Location | Notes | Download | Other |
+|----------|----------|----------|
+| ACPI-Patch | HPET and IRQ patches | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) |
+| Booter-Quirks | MATs Firmware |
+
 
 ### OpenCore Legacy
