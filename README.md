@@ -11,7 +11,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 **This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/Plists, configurators, or Clover. Follow the Acidathera Documentation.**
 
 
-## Test MacOS Versions
+## Tested MacOS Versions
 - MacOS High Sierra (10.13)
 - MacOS Catalina (10.15)
 - MacOS Big Sur (11)
@@ -80,12 +80,12 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 **Bluetooth may work on High Sierra and earlier with BTFirmwareUploader or ATH9Kfixup but has not been tested recently. Kexts will not load properly on Mojave and newer.
 
 ### Plist Edits
+| Type | Key | Link | 
+|----------|----------|----------|
+| HPET and IRQ patches | `ACPI -> Patch` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) |
+| MATs Firmware | `Booter -> Quirks` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) |
+| iGPU Framebuffer / Audio | `DeviceProperties -> Add` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/DeviceProperties.png) |
+| Platform Info | Generate SMBIOS for MacBookAir6,1, MacBookAir6,2 or MacBookPro11,2 SMBIOS | [Link](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo)
 
-| Location | Notes | Download | Source |
-|----------|----------|----------|----------|
-| ACPI-Patch | HPET and IRQ patches | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) |
-| Booter-Quirks | MATs Firmware | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) |
-| DeviceProperties-Add | iGPU Framebuffer / HDMI Audio| [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/DeviceProperties.png) |
 
-
-### OpenCore Legacy
+## OpenCore Legacy
