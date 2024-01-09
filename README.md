@@ -81,10 +81,11 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 ### Plist Edits
 
-| Location | Notes | Download | Other |
+| Location | Notes | Download | Source |
 |----------|----------|----------|----------|
 | ACPI-Patch | HPET and IRQ patches | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) |
-| Booter-Quirks | MATs Firmware |
+| Booter-Quirks | MATs Firmware | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) |
+| DeviceProperties-Add | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/DeviceProperties.png) |
 
 
 ### OpenCore Legacy
