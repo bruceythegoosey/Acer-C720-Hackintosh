@@ -35,7 +35,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Bluetooth | Atheros AR9462 | Supported on MacOS High Sierra and earlier |
 | Touchpad | Elan/Cypress | Cypress unsupported, ELAN only |
 | Display/Touchscreen | Atmel 1366x768 | Fully Supported |
-| Sound/AUX| Realtek ALC283 | Fully Supported |
+| Sound/AUX | Realtek ALC283 | Fully Supported |
 | Camera | 720p | Fully Supported |
 | SD Card | | Fully Supported |
 
@@ -85,7 +85,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 |----------|----------|----------|----------|
 | ACPI-Patch | HPET and IRQ patches | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) |
 | Booter-Quirks | MATs Firmware | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) |
-| DeviceProperties-Add | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/DeviceProperties.png) |
+| DeviceProperties-Add | iGPU Framebuffer / HDMI Audio| [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/DeviceProperties.png) |
 
 
 ### OpenCore Legacy
