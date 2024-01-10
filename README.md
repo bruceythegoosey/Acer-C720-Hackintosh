@@ -32,7 +32,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Memory | 2/4gb DDR3L | 4gb suggested for MacOS Mojave and later |
 | Storage | 16gb/32gb M.2 2242 | Replaceable, NVME unsupported. 256gb+ suggested |
 | WiFi | Atheros AR9462 | Supported on MacOS Big Sur and earlier |
-| Bluetooth | Atheros AR9462 | Supported on MacOS High Sierra and earlier |
+| Bluetooth | Atheros AR9462 | Supported on MacOS Big Sur and earlier |
 | Touchpad | Elan/Cypress | Cypress unsupported, ELAN only |
 | Display/Touchscreen | Atmel 1366x768 | Fully Supported |
 | Sound/AUX | Realtek ALC283 | Fully Supported |
@@ -76,8 +76,10 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | AppleALC | Realtek Speaker, AUX and HDMI Support | [Link](https://github.com/acidanthera/AppleALC/releases) |
 | HS80211Family | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/HS80211Family.kext.zip) |
 | Atheros40 | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
+| Ath3kBT | Bluetooth Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0)
 
-**Bluetooth may work on High Sierra and earlier with BTFirmwareUploader or ATH9Kfixup but has not been tested recently. Kexts will not load properly on Mojave and newer.
+**No AirDrop or Handoff support due to the injector kext not loading
+**Do not disable Duplicate CFBundleIdentifiers for Ath3kBT in ProperTree
 
 ### Plist Edits
 | Type | Key | Link | 
@@ -89,3 +91,4 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 
 ## OpenCore Legacy
+Coming Soon
