@@ -79,6 +79,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Ath3kBT | Bluetooth Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0)
 
 **No AirDrop or Handoff support due to the injector kext not loading
+
 **Do not disable Duplicate CFBundleIdentifiers for Ath3kBT in ProperTree
 
 ### Plist Edits
