@@ -41,6 +41,8 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 *Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite.
 
+*No AirDrop or Handoff support
+
 ## Installation 
 
 ### Preliminary
@@ -58,9 +60,6 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | SSDT-PNLF | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml)
 
 *No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad.
-
-
-**No AirDrop or Handoff support due to Ath3kBTInjector.kext not loading
 
 ### Kexts
 | Kext | Notes | Download | 
@@ -81,7 +80,9 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Atheros40 | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
 | Ath3kBT | Bluetooth Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0)
 
-**Do not disable Duplicate CFBundleIdentifiers for Ath3kBT in ProperTree
+*Need a project? Ath3kBT is in nee
+
+*Do not disable Duplicate CFBundleIdentifiers for Ath3kBT in ProperTree
 
 ### Plist Edits
 | Type | Key | Link | 
