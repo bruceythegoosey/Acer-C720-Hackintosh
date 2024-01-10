@@ -80,7 +80,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Atheros40 | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
 | Ath3kBT | Bluetooth Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0)
 
-*Need a project? Ath3kBT is in nee
+*Need a project? Ath3kBT needs Airport and Handoff functionallity. The original author had some ideas about a patch [here]. (https://github.com/zxystd/AthBluetoothFirmware/issues/3#issuecomment-813152300). 
 
 *Do not disable Duplicate CFBundleIdentifiers for Ath3kBT in ProperTree
 
