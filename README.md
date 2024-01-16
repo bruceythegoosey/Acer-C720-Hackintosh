@@ -21,7 +21,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 ## Table of Contents
 
-- Specifications
+- Fix
 
 ## Specifications and Status
 
@@ -95,3 +95,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 
 ## OpenCore Legacy
 Coming Soon
+
+##
+Credits
+Fix
