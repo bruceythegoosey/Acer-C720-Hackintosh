@@ -1,17 +1,32 @@
 # Acer-C720-Hackintosh
-Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Peppy). 
+Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Peppy) through OpenCore. 
 
 | Big Sur | Ventura | Sonoma |
 |------------|-------------|-------------|
 |<img src="Resources/Pictures/Sur.png" width="300">|<img src="Resources/Pictures/Ventura.png" width="300">
 
+
 ### Disclaimer
-**The process described in this guide may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow or ignore any of the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
+**The process described in this guide may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
 
 **This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/Plists, configurators, or Clover. Follow the Acidathera Documentation.**
 
+## Table of Contents
+
+- [Tested MacOS Versions](#Tested-MacOS-Versions)
+- [Specifications and Status](#Specifications-and-Status)
+- [Installation](#Installation)
+  - [Preliminary](#Preliminary)
+  - [SSDT's](#SSDT's)
+  - [Kexts](#Kexts)
+  - [Plist Edits](#Plist-Edits)
+- [OpenCore Legacy](#OpenCore-Legacy)
+- [Credits](#Credits)
 
 ## Tested MacOS Versions
+- MacOS Yosemite (10.10) 
+- MacOS El Capitan (10.11) 
+- MacOS Sierra (10.12) 
 - MacOS High Sierra (10.13)
 - MacOS Catalina (10.15)
 - MacOS Big Sur (11)
@@ -19,9 +34,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 - MacOS Ventura (13)
 - MacOS Sonoma (14)
 
-## Table of Contents
-
-- Fix
+*MacOS 10.12 and lower have only been tested on Clover
 
 ## Specifications and Status
 
@@ -96,6 +109,19 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 ## OpenCore Legacy
 Coming Soon
 
-##
-Credits
-Fix
+## Credits and Thanks
+[Acidanthera](https://github.com/acidanthera/OpenCorePkg) for OpenCorePkg and kexts 
+
+[Isi95010](https://github.com/isi95010) for his chromebook and countless hours of debugging and research.
+
+[CoolStar](https://github.com/coolstar) for [original](https://coolstar.org/chromebook/macos.html) hackintosh and driver work.
+
+[Meghan6](https://github.com/meghan06) for documentation assistance, proofreading and Github setup. 
+
+[1Revenger1](https://github.com/1Revenger1) for CrosEC, VoodooI2C, SSDT help and incredible patience.
+
+[Chrultrabook Team and Contributers](https://docs.chrultrabook.com) for general help and debugging
+
+[Olm3ca](https://github.com/olm3ca/PixelbookOSX) for guide template and inspiration. 
+
+[bruceythegoosey](https://github.com/bruceythegoosey) yours truly
