@@ -114,7 +114,7 @@ Coming Soon
 
 [Isi95010](https://github.com/isi95010) for his chromebook and countless hours of debugging and research.
 
-[CoolStar](https://github.com/coolstar) for [original](https://coolstar.org/chromebook/macos.html) hackintosh and driver work.
+[CoolStar](https://github.com/coolstar) for [original](https://coolstar.org/chromebook/macos.html) hackintosh port, driver work and inspiration.
 
 [Meghan6](https://github.com/meghan06) for documentation assistance, proofreading and Github setup. 
 
