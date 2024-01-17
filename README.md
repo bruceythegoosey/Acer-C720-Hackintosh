@@ -61,7 +61,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 
 *Both Cypress and Elan touchpads are interchangable. You can often find the supported Elan touchpad on eBay and replace the unsupported Cypress model. [link](https://www.ifixit.com/Guide/Acer+Chromebook+C720-2827+Trackpad+Replacement/121918)
 
-*You can also easily upgrade the low quality display to an IPS unit. [link](https://www.reddit.com/r/chrultrabook/comments/5krtpw/upgrade_the_c720p_or_c740_display/) There has been great success in adding a digitizer to the non touchscreen model as well.
+*You can also easily upgrade the low quality display to an [IPS unit](https://www.reddit.com/r/chrultrabook/comments/5krtpw/upgrade_the_c720p_or_c740_display/). There has been great success in adding a digitizer to the non touchscreen model as well.
 
 ## Installation 
 
