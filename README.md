@@ -1,5 +1,5 @@
 # Acer-C720-Hackintosh
-Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Peppy) through OpenCore. 
+Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebook (Peppy). 
 
 | Big Sur | Ventura | Sonoma |
 |------------|-------------|-------------|
@@ -32,6 +32,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 - MacOS El Capitan (10.11) 
 - MacOS Sierra (10.12) 
 - MacOS High Sierra (10.13)
+- MacOS Mojave (10.14)
 - MacOS Catalina (10.15)
 - MacOS Big Sur (11)
 - MacOS Monterey (12)
@@ -48,17 +49,19 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | Graphics | Intel HD 4000/4400 | Intel HD 4000 Unsupported |
 | Memory | 2/4gb DDR3L | 4gb suggested for MacOS Mojave and later |
 | Storage | 16gb/32gb M.2 2242 | Replaceable, NVME unsupported. 256gb+ suggested |
-| WiFi | Atheros AR9462 | Supported on MacOS Big Sur and earlier |
-| Bluetooth | Atheros AR9462 | Supported on MacOS Big Sur and earlier |
-| Touchpad | Elan/Cypress | Cypress unsupported, ELAN only |
+| WiFi | Atheros AR9462 | Supported on MacOS Big Sur and earlier (see notes) |
+| Bluetooth | Atheros AR9462 | Supported on MacOS Big Sur and earlier (see notes) |
+| Touchpad | Elan/Cypress | Cypress unsupported, ELAN only. |
 | Display/Touchscreen | Atmel 1366x768 | Fully Supported |
 | Sound/AUX | Realtek ALC283 | Fully Supported |
 | Camera | 720p | Fully Supported |
 | SD Card | | Fully Supported |
 
-*Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite.
+*The Wifi and BT on MacOS for Atheros cards is extremely buggy, regardless of version. Expect bugs if you enable it. No AirDrop or Handoff support. It is highly suggested to purchase a supported Intel or Broadcom Wifi/BT USB card but that is outside the scope of this guide. 
 
-*No AirDrop or Handoff support
+*Both Cypress and Elan touchpads are interchangable. You can often find the supported Elan touchpad on eBay and replace the unsupported Cypress model. [link](https://www.ifixit.com/Guide/Acer+Chromebook+C720-2827+Trackpad+Replacement/121918)
+
+*You can also easily upgrade the low quality display to an IPS unit. [link](https://www.reddit.com/r/chrultrabook/comments/5krtpw/upgrade_the_c720p_or_c740_display/) There has been great success in adding a digitizer to the non touchscreen model as well.
 
 ## Installation 
 
@@ -94,13 +97,15 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | VoodooPS2Controller | Remove VoodooPS2Mouse and VoodooPS2Trackpad Plugins | [Link](https://github.com/acidanthera/VoodooPS2/releases/) |
 | AppleALC | Realtek Speaker, AUX and HDMI Support | [Link](https://github.com/acidanthera/AppleALC/releases) |
 | CrosEC | Sensor Hub Support | [Link](https://github.com/Chromeintosh/CrosEC/releases) |
-| HS80211Family | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/HS80211Family.kext.zip) |
-| Atheros40 | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
-| Ath3kBT | Bluetooth Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0) |
+| HS80211Family | Wifi Injection for MacOS 10.14-11.0 DO NOT USE on Monterey and newer or High Sierra and lower | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/HS80211Family.kext.zip) |
+| Atheros40 | Wifi Injection for MacOS 10.14-11.0 DO NOT USE on Monterey and newer or High Sierra and lower | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
+| Ath3kBT | Bluetooth Injection for MacOS 10.14-11.0 DO NOT USE on Monterey and newer or High Sierra and lower | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0) |
 
 *Need a project? Ath3kBT needs Airport and Handoff functionallity. The original author had some ideas about a patch [here](https://github.com/zxystd/AthBluetoothFirmware/issues/3#issuecomment-813152300). 
 
-*Do not disable Duplicate CFBundleIdentifiers for Ath3kBT in ProperTree
+*Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite.
+
+*Disable Duplicate CFBundleIdentifiers in ProperTree
 
 ### Plist Edits
 | Type | Key | Link | Notes |
