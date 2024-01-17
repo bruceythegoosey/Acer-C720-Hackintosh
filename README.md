@@ -6,17 +6,9 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 |<img src="Resources/Pictures/Sur.png" width="300">|<img src="Resources/Pictures/Ventura.png" width="300">
 
 
-### Disclaimer
-**The process described in this guide may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
-
-**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. We are not here to build your hackintosh for you. Please direct basic OpenCore and plist related questions to the official Dortania Discord or subreddit. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/Plists, configurators, or Clover.**
-
-**Feedback is always welcome. If you are interested in what a specific function does feel free to create a discussion.**
-
-###   
-
 ## Table of Contents
 
+- [Disclaimer](#Disclaimer)
 - [Tested MacOS Versions](#Tested-MacOS-Versions)
 - [Specifications and Status](#Specifications-and-Status)
 - [Installation](#Installation)
@@ -26,6 +18,14 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
   - [Plist Edits](#Plist-Edits)
 - [OpenCore Legacy](#OpenCore-Legacy)
 - [Credits](#Credits)
+
+## ⚠️ Disclaimer ⚠️
+**The process described in this guide may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
+
+**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. We are not here to build your hackintosh for you. Please direct basic OpenCore and plist related questions to the official Dortania Discord or subreddit. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/Plists, configurators, or Clover.**
+
+**Feedback is always welcome. If you are interested in what a specific function does feel free to create a discussion.**
+
 
 ## Tested MacOS Versions
 - MacOS Yosemite (10.10) 
@@ -93,9 +93,10 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 | VoodooI2CAtmelMXT | VoodooI2C Satalite for ATMEL Touchscreen | [Link](https://github.com/VoodooI2C/VoodooI2C/releases) |
 | VoodooPS2Controller | Remove VoodooPS2Mouse and VoodooPS2Trackpad Plugins | [Link](https://github.com/acidanthera/VoodooPS2/releases/) |
 | AppleALC | Realtek Speaker, AUX and HDMI Support | [Link](https://github.com/acidanthera/AppleALC/releases) |
+| CrosEC | Sensor Hub Support | [Link](https://github.com/Chromeintosh/CrosEC/releases) |
 | HS80211Family | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/HS80211Family.kext.zip) |
 | Atheros40 | Wifi Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
-| Ath3kBT | Bluetooth Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0)
+| Ath3kBT | Bluetooth Injection for MacOS releases up to Big Sur - DO NOT USE on Monterey and newer | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0) |
 
 *Need a project? Ath3kBT needs Airport and Handoff functionallity. The original author had some ideas about a patch [here](https://github.com/zxystd/AthBluetoothFirmware/issues/3#issuecomment-813152300). 
 
@@ -106,7 +107,7 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 |----------|----------|----------|----------|
 | HPET and IRQ patches | `ACPI -> Patch` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) | Brightness patches and IRQ Conflicts |
 | MATs Firmware | `Booter -> Quirks` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) | Coreboot supports MATs. No need to use EnableWriteUnprotector |
-| iGPU Framebuffer / Audio | `DeviceProperties -> Add` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/DeviceProperties.png) | Adds proper iGPU properties, speaker and HDMI/Headphone support. |
+| iGPU Framebuffer / Audio | `DeviceProperties -> Add` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/DeviceProperties.plist) | Adds iGPU properties, speaker and HDMI/Headphone support. |
 | Generate SMBIOS | `PlatformInfo-Generic`  | [Link](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) | MacBookAir6,1, MacBookAir6,2 or MacBookPro11,2 suggested |
 
 
