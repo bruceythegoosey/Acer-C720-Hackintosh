@@ -9,7 +9,11 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 ### Disclaimer
 **The process described in this guide may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
 
-**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/Plists, configurators, or Clover. Follow the Acidathera Documentation.**
+**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. We are not here to build your hackintosh for you. Please direct basic OpenCore and plist related questions to the official Dortania Discord or subreddit. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/Plists, configurators, or Clover.**
+
+**Feedback is always welcome. If you are interested in what a specific function does feel free to create a discussion.**
+
+###   
 
 ## Table of Contents
 
@@ -98,12 +102,12 @@ Finally a real guide for running MacOS on the legendary Acer C720 Chromebook (Pe
 *Do not disable Duplicate CFBundleIdentifiers for Ath3kBT in ProperTree
 
 ### Plist Edits
-| Type | Key | Link | 
-|----------|----------|----------|
-| HPET and IRQ patches | `ACPI -> Patch` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) |
-| MATs Firmware | `Booter -> Quirks` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) |
-| iGPU Framebuffer / Audio | `DeviceProperties -> Add` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/DeviceProperties.png) |
-| Platform Info | Generate SMBIOS for MacBookAir6,1, MacBookAir6,2 or MacBookPro11,2 SMBIOS | [Link](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo)
+| Type | Key | Link | Notes |
+|----------|----------|----------|----------|
+| HPET and IRQ patches | `ACPI -> Patch` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) | Brightness patches and IRQ Conflicts |
+| MATs Firmware | `Booter -> Quirks` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) | Coreboot supports MATs. No need to use EnableWriteUnprotector |
+| iGPU Framebuffer / Audio | `DeviceProperties -> Add` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/DeviceProperties.png) | Adds proper iGPU properties, speaker and HDMI/Headphone support. |
+| Generate SMBIOS | `PlatformInfo-Generic`  | [Link](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) | MacBookAir6,1, MacBookAir6,2 or MacBookPro11,2 suggested |
 
 
 ## OpenCore Legacy
@@ -118,7 +122,7 @@ Coming Soon
 
 [Meghan6](https://github.com/meghan06) for documentation assistance, proofreading and Github setup. 
 
-[1Revenger1](https://github.com/1Revenger1) for CrosEC, VoodooI2C, SSDT help and incredible patience.
+[1Revenger1](https://github.com/1Revenger1) for CrosEC, VoodooI2C/SSDT help and incredible patience.
 
 [Chrultrabook Team and Contributers](https://docs.chrultrabook.com) for general help and debugging
 
