@@ -1,9 +1,9 @@
 # Acer-C720-Hackintosh
 Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebook (Peppy). 
 
-| Big Sur | Ventura | Sonoma |
-|------------|-------------|-------------|
-|<img src="Resources/Pictures/Sur.png" width="300">|<img src="Resources/Pictures/Ventura.png" width="300">
+| Mountain Lion | Big Sur | Ventura | Sonoma |
+|------------|-------------|-------------|-------------|
+| <img src="Resources/Pictures/MLion.png" wid="300"> | <img src="Resources/Pictures/Sur.png" width="300"> | <img src="Resources/Pictures/Ventura.png" width="300"> |
 
 
 ## Table of Contents
@@ -28,6 +28,8 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 
 
 ## Tested MacOS Versions
+
+- MacOS X Mountain Lion (10.8)
 - MacOS Yosemite (10.10) 
 - MacOS El Capitan (10.11) 
 - MacOS Sierra (10.12) 
@@ -38,8 +40,6 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 - MacOS Monterey (12)
 - MacOS Ventura (13)
 - MacOS Sonoma (14)
-
-*MacOS 10.12 and lower have only been tested on Clover
 
 ## Specifications and Status
 
