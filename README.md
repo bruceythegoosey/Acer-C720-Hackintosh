@@ -1,9 +1,9 @@
 # Acer-C720-Hackintosh
 Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebook (Peppy). 
 
-| Mountain Lion | Big Sur | Ventura | Sonoma |
-|------------|-------------|-------------|-------------|
-| <img src="Resources/Pictures/MLion.png" wid="300"> | <img src="Resources/Pictures/Sur.png" width="300"> | <img src="Resources/Pictures/Ventura.png" width="300"> |
+| Mountain Lion | High Sierra | Big Sur | Ventura | Sonoma |
+|------------|-------------|-------------|-------------|-------------|
+| <img src="Resources/Pictures/MLion.png" wid="300"> | <img src="Resources/Pictures/HS.png" width="300"> |<img src="Resources/Pictures/Sur.png" width="300"> | <img src="Resources/Pictures/Ventura.png" width="300"> |
 
 
 ## Table of Contents
