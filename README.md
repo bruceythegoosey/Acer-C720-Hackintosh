@@ -22,7 +22,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 ## ⚠️ Disclaimer ⚠️
 **The process described in this guide may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
 
-**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. We are not here to build your hackintosh for you. Please direct basic OpenCore and plist related questions to the official Dortania Discord or subreddit. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/Plists, configurators, or Clover.**
+**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. We are not here to build your hackintosh for you. Please direct basic OpenCore and plist related questions to the official Dortania Discord or subreddit. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/plists, configurators, or Clover.**
 
 **Feedback is always welcome. If you are interested in what a specific function does feel free to create a discussion.**
 
@@ -111,15 +111,18 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | Type | Key | Link | Notes |
 |----------|----------|----------|----------|
 | HPET and IRQ patches | `ACPI -> Patch` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/ACPI%20Patches.plist) | Brightness patches and IRQ Conflicts |
-| MATs Firmware | `Booter -> Quirks` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) | Coreboot supports MATs. No need to use EnableWriteUnprotector |
+| MATs Firmware | `Booter -> Quirks` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) | Coreboot supports MATs. No need to use EnableWriteUnprotector (disable MATs on High Sierra and lower) |
 | iGPU Framebuffer / Audio | `DeviceProperties -> Add` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/DeviceProperties.plist) | Adds iGPU properties, speaker and HDMI/Headphone support. |
 | Generate SMBIOS | `PlatformInfo-Generic` | [Link](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) | MacBookAir6,1, MacBookAir6,2 or MacBookPro11,2 suggested |
-| SecureBootModel | `Misc-Security` | [Link](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#what-is-apple-secure-boot) | 10.8-10.12: `Disabled` 10.13-10.15: `j137` 11-12:  `Default` (See OCLP Notes) |
+| SecureBootModel | `Misc-Security` | [Link](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#what-is-apple-secure-boot) | 10.8-10.12: `Disabled` 10.13-10.15: `j137` 11-14:  `Default` (See OCLP Notes) |
 
+* In DeviceProperties `Acpi-wake-type` fixes an issue where the keyboard freezes but only on MacOS 11+. It does not seem to work on MacOS 10.15 and earlier, use accordingly. 
 * ApECID seems to have issues on this device. You're on your own if you wish to achieve "Full Security."
 
 ## OpenCore Legacy
-Coming Soon
+Running MacOS Sonoma on a Haswell laptop is not a bright idea, but is indeed possible. 
+
+Guide Coming Soon
 
 ## Credits and Thanks
 [Acidanthera](https://github.com/acidanthera/OpenCorePkg) for OpenCorePkg and kexts 
@@ -136,4 +139,4 @@ Coming Soon
 
 [Olm3ca](https://github.com/olm3ca/PixelbookOSX) for guide template and inspiration. 
 
-[bruceythegoosey](https://github.com/bruceythegoosey) yours truly
+[Bruceythegoosey](https://github.com/bruceythegoosey) yours truly
