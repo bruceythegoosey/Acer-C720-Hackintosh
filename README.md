@@ -81,7 +81,8 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | SSDT-BUS0 | Fix [SBUS](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) Support | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-BUS0.aml) |
 
 *No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad.
-*PS2 codes can also be mapped to [HID](https://github.com/1Revenger1/VoodooPS2/releases) instead of ADB using a custom SSDT. A detailed analysis may be provided later.
+
+*PS2 codes can also be mapped to [HID](https://github.com/1Revenger1/VoodooPS2/releases) instead of ADB using a custom SSDT. I may detail this process later.
 
 ### Kexts
 | Kext | Notes | Download | 
