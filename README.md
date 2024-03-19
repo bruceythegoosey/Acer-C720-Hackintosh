@@ -76,7 +76,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | SSDT-PLUG-ALT | Custom SSDT-PLUG fixing XCPM on Coreboot 4.20+ | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PLUG-ALT.aml) |
 | SSDT-EC/USBX | Generate using DSDT | [Link](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html) | 
 | SSDT-HPET | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml) |
-| SSDT-PNLF | Generate using DSDT | [Link]([https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html)) |
+| SSDT-PNLF | Generate using DSDT | [Link](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html) |
 | SSDT-KEYS | ADB-PS2 Keyboard Mapping | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-KEYS.aml) |
 | SSDT-BUS0 | Fix [SBUS](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) Support | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-BUS0.aml) |
 
