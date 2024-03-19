@@ -84,6 +84,8 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 
 *PS2 codes can also be mapped to [HID](https://github.com/1Revenger1/VoodooPS2/releases) instead of ADB using a custom SSDT. I may detail this process later.
 
+*An alternative to using SSDT-PLUG-ALT is flashing a [modified version](https://ethanthesleepy.one/macos/) of Coreboot and using the normal SSDT-PLUG from SSDTTime.
+
 ### Kexts
 | Kext | Notes | Download | 
 |----------|----------|----------|
