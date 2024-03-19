@@ -74,14 +74,14 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | Kext | Notes | Download |
 |----------|----------|----------|
 | SSDT-PLUG-ALT | Custom SSDT-PLUG fixing XCPM on Coreboot 4.20+ | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PLUG-ALT.aml) |
-| SSDT-EC | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-EC.aml) | 
-| SSDT-USBX | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-USBX.aml) |
+| SSDT-EC/USBX | Generate using DSDT | [Link](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html) | 
 | SSDT-HPET | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml) |
-| SSDT-PNLF | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml) |
+| SSDT-PNLF | Generate using DSDT | [Link]([https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PNLF.aml](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html)) |
 | SSDT-KEYS | ADB-PS2 Keyboard Mapping | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-KEYS.aml) |
-| SSDT-BUS0 | SBUS Support | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-BUS0.aml) |
+| SSDT-BUS0 | Fix [SBUS](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) Support | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-BUS0.aml) |
 
 *No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad.
+*PS2 codes can also be mapped to [HID](https://github.com/1Revenger1/VoodooPS2/releases) instead of ADB using a custom SSDT. A detailed analysis may be provided later.
 
 ### Kexts
 | Kext | Notes | Download | 
@@ -107,8 +107,6 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 
 *Need a project? The original Cypress driver from CoolStar needs ported from the original VoodooI2C to a Voodoo Satalite.
 
-*Disable Duplicate CFBundleIdentifiers in ProperTree
-
 ### Plist Edits
 | Type | Key | Link | Notes |
 |----------|----------|----------|----------|
@@ -116,7 +114,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | MATs Firmware | `Booter -> Quirks` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Pictures/WriteUnprotector.png) | Coreboot supports MATs. No need to use EnableWriteUnprotector (disable MATs on High Sierra and lower) |
 | iGPU Framebuffer / Audio | `DeviceProperties -> Add` | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/Plists/DeviceProperties.plist) | Adds iGPU properties, speaker and HDMI/Headphone support. |
 | Generate SMBIOS | `PlatformInfo-Generic` | [Link](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) | MacBookAir6,1, MacBookAir6,2 or MacBookPro11,2 suggested |
-| SecureBootModel | `Misc-Security` | [Link](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#what-is-apple-secure-boot) | 10.8-10.12: `Disabled` 10.13-10.15: `j137` 11-14:  `Default` (See OCLP Notes) |
+| SecureBootModel | `Misc-Security` | [Link](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#what-is-apple-secure-boot) | 10.8-10.12: `Disabled` 10.13-10.15: `j137` 11-12:  `Default` 13-14 `See OCLP Notes` |
 
 * In DeviceProperties `Acpi-wake-type` fixes an issue where the keyboard freezes but only on MacOS 11+. It does not seem to work on MacOS 10.15 and earlier, use accordingly. 
 * ApECID seems to have issues on this device. You're on your own if you wish to achieve "Full Security."
