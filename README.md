@@ -104,7 +104,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | CrosEC | Embedded Controller Support (ECTool unsupported on High Sierra and older) | [Link](https://github.com/Chromeintosh/CrosEC/releases) |
 | HS80211Family | Wifi Injection for MacOS 10.13-11.0 DO NOT USE on Monterey and newer or High Sierra and older | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/HS80211Family.kext.zip) |
 | Atheros40 | Wifi Injection for MacOS 10.13-11.0 DO NOT USE on Monterey and newer or High Sierra and older | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
-| Ath3kBT | Bluetooth Injection for MacOS 10.8-11.0 DO NOT USE on Monterey and newer (HS unsupported) | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0) |
+| Ath3kBT | Bluetooth Injection for MacOS 10.8-11.0 DO NOT USE on Monterey and newer or High Sierra) | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0) |
 
 *Need a project? Ath3kBT needs Airport and Handoff functionallity. The original author had some ideas about a patch [here](https://github.com/zxystd/AthBluetoothFirmware/issues/3#issuecomment-813152300). 
 
