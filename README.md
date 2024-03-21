@@ -57,7 +57,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | Camera | 720p | Fully Supported |
 | SD Card | | Fully Supported |
 
-*The Wifi and BT on MacOS for Atheros cards is extremely buggy, regardless of version. Expect bugs if you enable it. No AirDrop or Handoff support. It is highly suggested to purchase a supported Intel or Broadcom Wifi/BT USB card but that is outside the scope of this guide. 
+*The Wifi and BT on MacOS for Atheros cards is extremely buggy, regardless of version. Expect bugs if you enable it. No AirDrop or Handoff support. It is highly suggested to purchase a supported Intel Wifi/BT or Broadcom BT USB card but that is outside the scope of this guide. 
 
 *Both Cypress and Elan touchpads are interchangable. You can often find the supported Elan touchpad on eBay and replace the unsupported Cypress model. [link](https://www.ifixit.com/Guide/Acer+Chromebook+C720-2827+Trackpad+Replacement/121918)
 
