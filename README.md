@@ -73,12 +73,12 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 ### SSDT's
 | Kext | Notes | Download |
 |----------|----------|----------|
-| SSDT-PLUG-ALT | Custom SSDT-PLUG fixing XCPM on Coreboot 4.20+ | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-PLUG-ALT.aml) |
+| SSDT-PLUG-ALT | Custom [SSDT-PLUG](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug.html) fixing XCPM on Coreboot 4.20+ | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/tree/main/Resources/SSDTs/SSDT-PLUG-ALT) |
 | SSDT-EC/USBX | Generate using DSDT | [Link](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html) | 
 | SSDT-PNLF | Generate using DSDT | [Link](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html) |
-| SSDT-HPET | Made using SSDTTime | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-HPET.aml) |
-| SSDT-KEYS | ADB-PS2 Keyboard Mapping | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-KEYS.aml) |
-| SSDT-BUS0 | Fix [SBUS](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) Support | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-BUS0.aml) |
+| SSDT-HPET | Generate using DSDT (see IRQ plist) | [Link](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html) |
+| SSDT-KEYS | ADB-PS2 Keyboard Mapping | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/tree/main/Resources/SSDTs/SSDT-KEYS) |
+| SSDT-BUS0 | Fix [SBUS](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) Support | [Link](https://github.com/bruceythegoosey/Acer-C720-Hackintosh/blob/main/Resources/SSDTs/SSDT-BUS0) |
 
 *No need for SSDT-XOSI or SSDT-GPIO if using ELAN Touchpad.
 
@@ -125,7 +125,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 ## OpenCore Legacy
 Running MacOS Sonoma on a Haswell laptop is not a bright idea, but is indeed possible. 
 
-Guide Coming Soon
+Coming Soon
 
 ## Credits and Thanks
 [Acidanthera](https://github.com/acidanthera/OpenCorePkg) for OpenCorePkg and kexts 
