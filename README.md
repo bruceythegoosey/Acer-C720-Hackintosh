@@ -22,7 +22,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 ## ⚠️ Disclaimer ⚠️
 **The process described in this guide may cause irreversible damage to your laptop. We accept absolutely no responsibility for the consequences of anyone electing to follow the instructions in this document, and make no guarantees about the quality or effectiveness of the software therein.**
 
-**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. We are not here to build your hackintosh for you. Please direct basic OpenCore and plist related questions to the official Dortania Discord or subreddit. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/plists, configurators, or Clover.**
+**This guide is intended to be used on a self-service and reference basis only. It may become out of date or no longer updated at any time. It is up to you to find up to date information. We are not here to build your hackintosh for you. Please direct basic OpenCore and plist related questions to the official Dortania Discord or subreddit. The Chrultrabook forum is also available for hardware or Chromebook specific questions. NO SUPPORT WHATSOEVER will be given to those using preconfigued EFI's/plists, configurators, or Clover.**
 
 **Feedback is always welcome. If you are interested in what a specific function does feel free to create a discussion.**
 
