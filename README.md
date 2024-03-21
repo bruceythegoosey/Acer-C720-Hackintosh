@@ -57,7 +57,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | Camera | 720p | Fully Supported |
 | SD Card | | Fully Supported |
 
-*Wifi and BT on MacOS for Atheros cards is extremely buggy, regardless of version. No AirDrop or Handoff support. It is highly recommended to purchase a supported Intel Wifi/BT or Broadcom BT USB card but that is outside the scope of this guide. 
+*Wifi/BT Atheros cards are extremely buggy, regardless of version. No AirDrop or Handoff support. It is highly recommended to purchase a supported [Intel](https://github.com/OpenIntelWireless), [Broadcom](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets) (BT only) or [Realtek/MTK](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter) USB card but that is outside the scope of this guide. 
 
 *Both Cypress and Elan touchpads are interchangable. You can often find the supported Elan touchpad on eBay and replace the unsupported Cypress model. [link](https://www.ifixit.com/Guide/Acer+Chromebook+C720-2827+Trackpad+Replacement/121918)
 
@@ -101,7 +101,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 | VoodooI2CAtmelMXT | VoodooI2C Satalite for ATMEL Touchscreen | [Link](https://github.com/VoodooI2C/VoodooI2C/releases) |
 | VoodooPS2Controller | Remove VoodooPS2Mouse and VoodooPS2Trackpad Plugins | [Link](https://github.com/acidanthera/VoodooPS2/releases/) |
 | AppleALC | Realtek Speaker, AUX and HDMI Support | [Link](https://github.com/acidanthera/AppleALC/releases) |
-| CrosEC | Embedded Controller Support (ECTool unsupported on High Sierra and older) | [Link](https://github.com/Chromeintosh/CrosEC/releases) |
+| CrosEC | Embedded Controller Support | [Link](https://github.com/Chromeintosh/CrosEC/releases) |
 | HS80211Family | Wifi Injection for MacOS 10.13-11.0 DO NOT USE on Monterey and newer or High Sierra and older | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/HS80211Family.kext.zip) |
 | Atheros40 | Wifi Injection for MacOS 10.13-11.0 DO NOT USE on Monterey and newer or High Sierra and older | [Link](https://github.com/qiqco/Atheros-Wi-Fi-Hackintosh-macOS/blob/main/AirPortAtheros40-AR9462.zip) |
 | Ath3kBT | Bluetooth Injection for MacOS 10.8-11.0 DO NOT USE on Monterey and newer or High Sierra) | [Link](https://github.com/zxystd/AthBluetoothFirmware/releases/tag/v1.1.0) |
