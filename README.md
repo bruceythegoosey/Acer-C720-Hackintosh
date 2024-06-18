@@ -69,6 +69,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 1. Flash Mr. Chromebox's [CoreBoot Firmware](https://mrchromebox.tech/). 
 2. Build the base OpenCore EFI for [Haswell Laptops](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html/).
 3. Dump your complete [DSDT](https://dortania.github.io/Getting-Started-With-ACPI/Manual/dump.html#:~:text=In%20command%20prompt%20run%20path%2Fto%2Facpidump.exe%20-b%20-n%20DSDT,DSDT%20as%20a.dat%20file.%20Rename%20this%20to%20DSDT.aml).
+4. Map your [USB and Internal Devices](https://github.com/USBToolBox/tool)
 
 ### SSDT's
 | Kext | Notes | Download |
