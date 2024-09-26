@@ -3,7 +3,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 
 | Mountain Lion | High Sierra | Big Sur | Ventura | Sequoia |
 |------------|-------------|-------------|-------------|-------------|
-| <img src="Resources/Pictures/MLion.png" wid="300"> | <img src="Resources/Pictures/HS.png" width="300"> |<img src="Resources/Pictures/Sur.png" width="300"> | <img src="Resources/Pictures/Ventura.png" width="300"> |
+| <img src="Resources/Pictures/MLion.png" wid="300"> | <img src="Resources/Pictures/HS.png" width="300"> |<img src="Resources/Pictures/Sur.png" width="300"> | <img src="Resources/Pictures/Ventura.png" width="300"> | ![ScreenShot](/Resources/Pictures/Sequoia.png)
 
 
 ## Table of Contents
@@ -40,6 +40,7 @@ Finally a real guide for running MacOS on the legendary Acer C720/C720p Chromebo
 - MacOS Monterey (12)
 - MacOS Ventura (13)
 - MacOS Sonoma (14)
+- MacOS Sequoia (15)
 
 ## Specifications and Status
 
